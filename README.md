@@ -12,7 +12,7 @@
 
 A research project report exploring how a warehouse robot could learn to reach goals while avoiding obstacles using **Deep Deterministic Policy Gradient (DDPG)**. The described setup combines a Gazebo warehouse simulation with continuous control, sensor observations, and an actor–critic learning loop.
 
-This repository presents the method and historical results preserved in the project draft. It contains documentation and report figures; the matching navigation implementation and simulation files were not present in the supplied archive.
+This repository presents the method and historical results preserved in the project draft. It contains documentation and report figures; the matching DDPG navigation implementation was not recovered. Additional semester material supplies a separately identified third-party robot simulation base.
 
 ## The navigation problem
 
@@ -113,3 +113,7 @@ docs/
 ## Source material
 
 The showcase is based on the three-page project draft titled **Autonomous Warehouse Navigation Using Deep Reinforcement Learning**. Figures were extracted from its results page. The draft itself is not included here because it contains personal identifiers; this presentation excludes team names, student IDs, and group identifiers.
+
+## Additional semester material
+
+See the [recovered simulation scene, method notes, and robot-base package](docs/semester-material/README.md). The upstream robot package is preserved separately from the unavailable DDPG controller.
